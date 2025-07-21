@@ -1,17 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>new one</title>
-</head>
-<body>
+body{
+  background-color: #f0cd5a;
+  font-family: Arial, sans-serif;
+  
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
 
-  <h1>how is changes</h1>
-    <h6>hi how </h6>
+header{
+  background-color:rgb(107, 6, 23);
+  width:100%;
+  position: fixed;
+  z-index:999;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:10px  5px;
+  
+}
+.logo{
+color:rgb(221, 221, 241);
+background-color: rgb(13, 43, 180);
+  font-size: 24px;
+  text-decoration: none;
+}
 
-    <h6>home page</h6>
-    
- me
-</body>
-</html>
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7e0f30;
+  padding: 10px;
+}
+
+
+
+nav a{
+  text-decoration: none;
+  color:red;
+  font-size:20px;
+  margin:  15px;
+
+
+
+
+  }
